@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Mass Effect Trivia!</title>
+    <link rel="stylesheet" href="startpage.css">
+    <link rel="icon" href="https://i.kym-cdn.com/photos/images/facebook/000/193/296/bd64ee6f-3590-4eb1-b657-e5bf45594c24.jpg">
+</head>    
+<body>
+    <audio autoplay loop>
+        <source src="vigil.mp3" type="audio/mp3">
+    </audio>
+    <header>
+        <h1>Welcome to Mass Effect Trivia!</h1>
+        <p>Test your knowledge of the Mass Effect universe!</p>
+    </header>
+    
+    <div class="image-container">
+        <img id="me" src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/11/mass-effect-logo-meteors.jpg" alt="Mass Effect Logo">
+        <a href="#" id="start" Start Trivia>Start Trivia</a>
+    </div>
+
+<button id="music">Music</button>    
+
+<script src="startpage.js"></script>
+<script>
+let start=document.getElementById("start")
+    start.addEventListener("click",()=>{
+        window.location="quiz.html"
+    })
+</script>
+</body>
+</html>
