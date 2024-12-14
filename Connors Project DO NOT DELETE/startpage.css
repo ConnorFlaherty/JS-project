@@ -1,0 +1,64 @@
+body {
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/11/Earth-From-Space-HD-Backgrounds.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+#me {
+    width: 80%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#start {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.start-button:hover {
+    background-color: #004d99;
+}
+
+#music{
+    width:25pxpx;
+    background-color:#0066cc
+
+}
